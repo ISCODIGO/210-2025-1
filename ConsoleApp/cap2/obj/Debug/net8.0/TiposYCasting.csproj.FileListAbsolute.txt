@@ -1,0 +1,14 @@
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\TiposYCasting.exe
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\TiposYCasting.deps.json
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\TiposYCasting.runtimeconfig.json
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\TiposYCasting.dll
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\TiposYCasting.pdb
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\TiposYCasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\TiposYCasting.AssemblyInfoInputs.cache
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\TiposYCasting.AssemblyInfo.cs
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\TiposYCasting.csproj.CoreCompileInputs.cache
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\TiposYCasting.dll
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\refint\TiposYCasting.dll
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\TiposYCasting.pdb
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\TiposYCasting.genruntimeconfig.cache
+C:\Users\enrique\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ref\TiposYCasting.dll

@@ -1,0 +1,14 @@
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\bin\Debug\net8.0\Decisiones.exe
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\bin\Debug\net8.0\Decisiones.deps.json
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\bin\Debug\net8.0\Decisiones.runtimeconfig.json
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\bin\Debug\net8.0\Decisiones.dll
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\bin\Debug\net8.0\Decisiones.pdb
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\Decisiones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\Decisiones.AssemblyInfoInputs.cache
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\Decisiones.AssemblyInfo.cs
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\Decisiones.csproj.CoreCompileInputs.cache
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\Decisiones.dll
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\refint\Decisiones.dll
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\Decisiones.pdb
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\Decisiones.genruntimeconfig.cache
+C:\Users\enrique\source\repos\ConsoleApp2\Decisiones\obj\Debug\net8.0\ref\Decisiones.dll
