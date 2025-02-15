@@ -1,0 +1,63 @@
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.ilk
+*.out
+*.iobj
+*.ipdb
+*.rsp
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.tlog
+*.VC.db
+*.VC.VC.opendb
+
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+# ASP.NET / Web-related
+*.publish/
+wwwroot/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+global.json
+.nuget/
+
+# Entity Framework Migrations
+Migrations/
+
+# Environment-specific
+.env
+*.config.user
+
+# .NET Core dependencies
+obj/
+bin/
+project.lock.json
+project.assets.json
+PackageReferences/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Others
+*.log
+*.tlog
+*.vspscc
+*.vssscc
