@@ -19,7 +19,7 @@ namespace cap_11
                 return _ciudad;
             }
 
-            /*set
+            set
             {
                 if (!String.IsNullOrEmpty(value))
                 {
@@ -28,8 +28,25 @@ namespace cap_11
                         _ciudad = value;
                     }
                 }
-            }*/
+            }
+        }
+
+        public string Cedula { get; set; }
+
+        // Constructor
+        public Persona()
+        {
+
+        }
+
+        public Persona(string nombre, string ciudad)
+        {
+            this.nombre = nombre;
+            this.Ciudad = ciudad;
         }
 
     }
+
+    
+
 }

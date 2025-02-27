@@ -3,9 +3,7 @@
 
 using cap_11;
 
-Persona p = new Persona();
-p.nombre = "";
-p.Ciudad = "San Pedro Sula";
+Persona p = new Persona("Elias", "San Pedro Sula");
 p.Ciudad = "La Ceiba";
 Console.WriteLine("Ciudad: " + p.Ciudad);
 
