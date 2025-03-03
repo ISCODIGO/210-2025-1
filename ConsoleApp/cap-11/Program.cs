@@ -7,3 +7,5 @@ Persona p = new Persona("Elias", "San Pedro Sula");
 p.Ciudad = "La Ceiba";
 Console.WriteLine("Ciudad: " + p.Ciudad);
 
+p = null;
+

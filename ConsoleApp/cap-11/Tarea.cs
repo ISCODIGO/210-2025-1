@@ -13,16 +13,48 @@ namespace cap_11
 
         public EstadoTarea Estado {  get; set; }
 
-
         public enum EstadoTarea { PENDIENTE, COMPLETADO, VENCIDO };
 
-
-        public Tarea() { 
-            Nombre = string.Empty;
-            FechaLimite = DateTime.Now.AddDays(7.0);
-            Estado = EstadoTarea.PENDIENTE;
+        public Tarea(string Nombre, DateTime fechaLimite, EstadoTarea estado)
+        {
+            this.Nombre = Nombre;
+            this.FechaLimite = fechaLimite;
+            this.Estado = estado;
         }
-    
+
+        public Tarea(string nombre, DateTime fecha) { 
+            this.Nombre = nombre;
+            this.FechaLimite = fecha;
+            this.Estado = EstadoTarea.PENDIENTE;
+        }
+
+        public Tarea(string nombre)
+        {
+            this.Nombre = nombre;
+            this.FechaLimite = DateTime.Now.AddDays(7);
+            this.Estado = EstadoTarea.PENDIENTE;
+        }
+
+        public void Finalizar()
+        {
+            this.Estado = EstadoTarea.COMPLETADO;
+        }
+       
+        public bool Posponer(DateTime nuevaFecha)
+        {
+            if (this.FechaLimite >= nuevaFecha)
+            {
+                return false;
+            }
+
+            if (this.Estado == EstadoTarea.COMPLETADO)
+            {
+                return false;
+            }
+
+            this.FechaLimite = nuevaFecha;
+            return true;
+        }
     }
 
 }
