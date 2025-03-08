@@ -8,15 +8,15 @@ namespace FacturaConsola
 {
     internal class Articulo
     {
+        public string Codigo { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public bool Usado { get; set; }
-
-        public readonly int x = 10;
+        public bool EsGravable { get; set; }
 
         public Articulo()
         {
-            this.x = 20;
+
         }
 
         private decimal _precio;
