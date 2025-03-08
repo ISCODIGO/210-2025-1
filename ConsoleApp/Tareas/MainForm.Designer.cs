@@ -80,7 +80,7 @@
             btnBuscar.Name = "btnBuscar";
             btnBuscar.Size = new Size(75, 29);
             btnBuscar.TabIndex = 6;
-            btnBuscar.Text = "Buscar";
+            btnBuscar.Text = "BuscarPorNombre";
             btnBuscar.Click += btnBuscar_Click;
             // 
             // txtBuscar

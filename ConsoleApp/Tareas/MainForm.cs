@@ -41,7 +41,7 @@ namespace Tareas
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             string nombre = txtBuscar.Text;
-            Tarea tarea = listaTareas.Buscar(nombre);
+            Tarea tarea = listaTareas.BuscarPorNombre(nombre);
             if (tarea != null)
             {
                 MessageBox.Show($"Tarea encontrada:\nNombre: {tarea.Nombre}\nEstado: {tarea.Estado}\nFecha Límite: {tarea.FechaLimite}");
@@ -57,7 +57,7 @@ namespace Tareas
             if (cmbEstado.SelectedItem != null)
             {
                 Tarea.EstadoTarea estado = (Tarea.EstadoTarea)cmbEstado.SelectedItem;
-                lstTareas.DataSource = listaTareas.ListaPorEstado(estado);
+                lstTareas.DataSource = listaTareas.FiltrarListaPorEstado(estado);
             }
         }
 

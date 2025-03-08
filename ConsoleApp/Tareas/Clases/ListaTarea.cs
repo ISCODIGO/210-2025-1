@@ -9,6 +9,7 @@ namespace Tareas.Clases
 {
     internal class ListaTarea
     {
+        // Atributo
         List<Tarea> tareas;
 
         public ListaTarea()
@@ -27,11 +28,11 @@ namespace Tareas.Clases
             return tareas.Remove(tarea);
         }
 
-        public Tarea Buscar(string nombre)
+        public Tarea BuscarPorNombre(string frase)
         {
             foreach (Tarea t in tareas)
             {
-                if (t.Nombre.Contains(nombre))
+                if (t.Nombre.Contains(frase))
                 {
                     return t;
                 }
@@ -41,7 +42,7 @@ namespace Tareas.Clases
             return null;
         }
 
-        public List<Tarea> ListaPorEstado(Tarea.EstadoTarea estado)
+        public List<Tarea> FiltrarListaPorEstado(Tarea.EstadoTarea estado)
         {
             List<Tarea> lista = new List<Tarea>();
             foreach (Tarea t in tareas)
