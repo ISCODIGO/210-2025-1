@@ -21,12 +21,15 @@ namespace FacturaConsola
         private decimal SubTotal { get; set; }
         private decimal Impuesto { get; set; }
 
+        private Estado EstadoCarrito { get; set; }
+
 
 
         public CarritoCompra()
         {
             Productos = new List<Articulo>();
             InstanteCreacion = DateTime.Now;
+            EstadoCarrito = Estado.CREADO;
         }
 
         public bool AgregarProducto(Articulo articulo, int cantidad)
@@ -52,7 +55,10 @@ namespace FacturaConsola
 
         public void Comprar()
         {
-
+            // TODO: Manejo de inventario
+            // TODO: Crear una factura
+            EstadoCarrito = Estado.FACTURADO;
+            InstanteCompra = DateTime.Now;
         }
     }
 }

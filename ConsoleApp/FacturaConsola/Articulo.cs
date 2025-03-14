@@ -8,6 +8,7 @@ namespace FacturaConsola
 {
     internal class Articulo
     {
+        public const decimal ISV = 15m;
         public string Codigo { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
@@ -29,6 +30,18 @@ namespace FacturaConsola
             {
                 if (value <= 0) value = 1m;
                 _precio = value;
+            }
+        }
+
+        public decimal GetImpuesto()
+        {
+            if (EsGravable)
+            {
+                return Precio * ISV / 100;
+            }
+            else
+            {
+                return 0m;
             }
         }
 
