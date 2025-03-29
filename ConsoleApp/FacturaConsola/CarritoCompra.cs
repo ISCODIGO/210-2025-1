@@ -32,6 +32,14 @@ namespace FacturaConsola
             EstadoCarrito = Estado.CREADO;
         }
 
+        // constructor por copia
+        public CarritoCompra(CarritoCompra origen)
+        {
+            Productos = origen.Productos;
+            InstanteCreacion = DateTime.Now;
+            EstadoCarrito= Estado.CREADO;
+        }
+
         public bool AgregarProducto(Articulo articulo, int cantidad)
         {
             if (articulo == null) return false;
