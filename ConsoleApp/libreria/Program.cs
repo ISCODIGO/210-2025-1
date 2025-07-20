@@ -7,19 +7,16 @@ Libro libro = new Libro
     Autor = "Cervantes",
 };
 
-
-
-Console.WriteLine(libro);
-
 string fulano = "Victor Ruiz";
-Pedido pedido = new Pedido(fulano);
-
+string archivo_json = $"{fulano}.json";
+/*Pedido pedido = new Pedido(fulano);
 pedido.Solicitar(libro, 4);
 
-Console.WriteLine(pedido);
+AlmacenamientoPedido.empaquetar(archivo_json, pedido);
+*/
 
-string contenido = JsonSerializer.Serialize(pedido);
-using (var sw = new StreamWriter("pedido.json"))
-{
-    sw.Write(contenido);
-}
+var pedidoAlmacenado = AlmacenamientoPedido.desempaquetar(archivo_json);
+
+Console.WriteLine(pedidoAlmacenado);
+
+
